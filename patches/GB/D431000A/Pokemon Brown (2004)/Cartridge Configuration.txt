@@ -1,0 +1,41 @@
+The following cartridge configuration was detected:
+
+ROM Size: 2 MB
+Save Type: 256K SRAM (32 KB)
+Cartridge Type: 2006_TSOP_64BALL_QFP48 with AL016J55FFAR2 (or compatible)
+
+
+Details:
+
+Game Title: POKEMON RED
+ROM Size: 2 MB
+Save Type: 256K SRAM (32 KB)
+
+Flash ID Check:
+[     ROM     ] FF 00 00 00 00 00 00 00 
+[WR   / AAA/A9] 02 02 4A 4A 00 00 00 00 
+[WR   /4AAA/A9] 02 02 4A 4A 00 00 00 00 
+[WR   /7AAA/A9] 02 02 4A 4A 00 00 00 00 
+
+Common Flash Interface Data:
+Swapped pins: (0, 1)
+Device size: 0x0200000 (2.00 MB)
+Voltage: 2.7–3.6 V
+Single write: True
+Buffered write: False
+Sector erase: 1024–16384 ms
+Region 1: 0x0000000–0x0003FFF @ 0x4000 Bytes × 1
+Region 2: 0x0004000–0x0007FFF @ 0x2000 Bytes × 2
+Region 3: 0x0008000–0x000FFFF @ 0x8000 Bytes × 1
+Region 4: 0x0010000–0x01FFFFF @ 0x10000 Bytes × 31
+
+Compatible Cartridge Types:
+- 2006_TSOP_64BALL_QFP48 with AL016J55FFAR2*
+- SD007_BV5_V3 with AM29LV160MB
+- SD007_TSOP_29LV017D with L017D70VC
+- SD007_TSOP_48BALL with AM29LV160DB
+- SD007_TSOP_48BALL with AM29LV160DT
+- SD007_TSOP_48BALL with L160DB12VI
+- SD007_TSOP_64BALL_SOP28 with unlabeled flash chip
+
+FlashGBX v3.3 | GBxCart RW v1.4a – Firmware R33+L4 (COM8)
